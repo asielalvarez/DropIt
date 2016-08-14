@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>AAA</title>
+  <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+<body>
+
+<div>
+    <h1 id="header">Go!</h1>
+</div>
+
+<div class="GameAndTable">
+  <div style="marin:auto;margin-left:5px">
+    <div class="buttons">
+      <button id="drop" type="button" class="btn btn-success" onclick="dropCircle()">drop</button>
+      <button id="repeat" type="button" class="btn btn-warning" onclick="repeatLevel()">try again</button>
+      <button id="next" type="button" class="btn btn-primary" onclick="nextLevel()">next</button>
+      <button id="restart" type="button" class="btn btn-danger" onclick="restart()">restart</button>
+    </div>
+  </div>
+    <div class="wall">
+      <div class="lives">
+        <span class="glyphicon glyphicon-heart" aria-hidden="true" style="top:3px"></span><span id="lives"> 5</span>
+      </div>
+      <div>
+        <p id = "circle" class="ball"></p>
+      </div>
+      <div>
+      <p id = "goal" class="goal lowerPosition"></p>
+    </div>
+  </div>
+  <div class="rightDiv">
+    <div id="level">level: 1</div>
+  <div class="rankTable" data-example-id="bordered-table">
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Rank#</th>
+          <th>Name</th>
+          <th>Level</th>
+        </tr>
+      </thead>
+         <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>7</td>
+          </tr>
+           <tr>
+            <th scope="row">3</th>
+            <td>Larry</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Mark</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Jacob</td>
+            <td>7</td>
+          </tr>
+           <tr>
+            <th scope="row">6</th>
+            <td>Larry</td>
+            <td>4</td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>Mark</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td>Jacob</td>
+            <td>7</td>
+          </tr>
+           <tr>
+            <th scope="row">9</th>
+            <td>Larry</td>
+            <td>4</td>
+          </tr>
+          <tr>
+           <th scope="row">10</th>
+           <td>Larry</td>
+           <td>4</td>
+         </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+</body>
+<script src="index.js"></script>
+<script language="javascript">startProg()</script>
+</html>

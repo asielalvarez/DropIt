@@ -1,0 +1,89 @@
+body {
+  width: auto;
+  background-color:#9ed8ff;
+  position:relative;
+}
+h1 {
+  text-align:center;
+}
+#level{
+  background-color: black;
+  color: lime;
+  padding: 4px;
+  width:auto;
+  text-align:center;
+  font-size:16px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.ball{
+  width:75px;
+  height:75px;
+  margin-top:100px;
+  background-color:orange;
+  border-radius:40px;
+  position:absolute;
+  /*background-image: url(boot.jpg);*/
+  z-index: 3;
+}
+.goal{
+  width:100px;
+  height:100px;
+  background-color:white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  /*background: url(jerry.jpg);*/
+  z-index: 2;
+  position:absolute;
+}
+.GameAndTable{
+  margin: auto;
+  width: 1410px;
+  overflow: hidden;
+}
+.wall {
+  float:left;
+   margin:5px;
+   width:1100px;
+   height:800px;
+   background:black;
+   z-index:1;
+   position:relative;
+   display: inline-block;
+}
+.rightDiv {
+  float:left;
+  width:290px;
+  display: inline-block;
+  margin:5px;
+}
+.rankTable {
+  margin-top:5px;
+  background-color:whitesmoke;
+}
+.lowerPosition {
+  margin-top:200px;
+}
+.buttons {
+  margin: auto;
+}
+.lives {
+  margin: auto;
+  color:red;
+  font-size: 2em;
+  margin-right: 10px;
+  margin-top: 5px;
+  float:right;
+
+}
+#restart {
+  width:auto;
+  min-width: 103px;
+}
+/*@media (max-width: 1420px) {
+  .rightDiv{
+    float:none;
+    display:block;
+}*/
+
+}
